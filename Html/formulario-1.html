@@ -1,0 +1,56 @@
+<!--<form action="" method="post">-->
+<!--Para receber arquivos-->
+    <form action="" method="post" enctype="multipart/form-data>"
+  <!--
+    select
+    elemento de forunulário capaz de criar uma lista de opçoes 
+    a serem selecionadas
+  -->
+  <label for="teacher">Professores:</label>
+  <select name="select-teacher" id="teacher" multiple size="4">
+    <option value="">Selecione um professor</option>
+    <option value="Luan Santos">Luan Santos</option>
+    <option value="Moacir Garcia">Moacir Garcia</option>
+    <option value="Jenifer Vieira">Jenifer Vieira</option>
+    <option value="Regis Eduardo">Regis Eduardo</option>
+
+  </select>
+    <!--
+    Input Search
+    usado para pesquisar conteúdo
+    parece com o tex e pode receber atributos e comportamentos
+-->
+
+<input
+type="search"
+name=""
+title=""
+placeholder="Busque o usuário pelo id"
+size="24"
+pattern="[0-9]{0,3}"
+title="Busque por id  de até 3 digitos"
+required
+>
+<br><br>
+
+
+<!--
+    Manipulando  arquivos com o file
+    Usuário poderá fazer o upload de 1 ou  mais
+    arquivos de acordo com a extensão
+-->
+
+<input type="file" 
+value=""
+accept="image/*"
+multiple
+id=""
+>
+
+
+<button type="submit">Enviar</button>
+
+
+    </fieldset>
+
+</form>
