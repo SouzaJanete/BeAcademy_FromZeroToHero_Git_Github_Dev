@@ -1,168 +1,176 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-      />
-    
-    
-    <title>Tio Wolney Transporte Escolar</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css"/>
-  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
 
-  <body>
 
-     <header id="page-header">
-        <div class="container">
-            <div id="page-header-logo">
-              <img src="./assets/images/TWolney.png" align="left" height="150" width="150"/>
-           <!-- <h1>
+  <title>Tio Wolney Transporte Escolar</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <script src="./assets/login.js"></script>
+
+</head>
+
+<body>
+
+  <header id="page-header">
+    <div class="container">
+      <div id="page-header-logo">
+        <img src="./assets/images/TWolney.png" align="left" height="150" width="150" />
+        <!-- <h1>
 
               tio wolney transporte escolar
              </h1> -->
-             <header>
-              
-              <div id="title">
+        <header>
 
-              </div>
-      
-              <div style="text-align:right">
-                <ul>
-                  <a href="#"><li>Início</li></a>
-                  <a href="#"><li>Serviços</li></a>
-                  <a href="#"><li>Sobre</li></a>
-                  <a href="#"><li>Contato</li></a>
-                  <a href="#" id="inscreva-se-btn"><li> Ainda não é cliente?</li></a>
-              </ul>
-              </div>
-             
-          </header>
+          <div id="title">
 
-          <main>
-            <aside>
-                <h2><span>Garanta sua vaga agora</span></h2>
-         <form>
-                    <input type="text" placeholder="Nome">
-                    <input type="email" placeholder="E-mail">
-                    <input type="submit" value="Enviar">
-                </form>
-            </aside>
-            
-           <div id="page-header-content">
-                <h3>O melhor transporte da cidade</h3>
-                <hr class="divider" />
-                <h4>MAIS QUE UM TRANSPORTE, UM PASSEIO!</h4>
-                </div>
+          </div>
 
-          </header>
+          <div style="text-align:right">
+            <ul>
+              <a href="#">
+                <li>Início</li>
+              </a>
+              <a href="#">
+                <li>Serviços</li>
+              </a>
+              <a href="#">
+                <li>Sobre</li>
+              </a>
+              <a href="#">
+                <li>Contato</li>
+              </a>
+              <a href="#" id="inscreva-se-btn">
+                <li> Ainda não é cliente?</li>
+              </a>
+            </ul>
+          </div>
+
+        </header>
+
+        <main>
+          <aside>
+            <h2><span>Garanta sua vaga agora</span></h2>
+            <form>
+              <input type="text" placeholder="Nome">
+              <input type="email" placeholder="E-mail">
+              <button class="enviar" onclick="myFunction()">Enviar</button>
+              <!-- <input id="btn" type="submit" value="Enviar"> -->
+
+            </form>
+          </aside>
+
+          <div id="page-header-content">
+            <h3>O melhor transporte da cidade</h3>
+            <hr class="divider" />
+            <h4>MAIS QUE UM TRANSPORTE, UM PASSEIO!</h4>
+          </div>
+
+  </header>
 
 
-            <section id="quote">
-              <div class="container">
-                <div>
-                  <img
-                    src="./assets/images/watche.jpeg"
-                    alt="Uma aspas da cor branca"
-                    width="94"
-                    height="72"
-                  />
-                </div>
-                <div id="quote-content">
-                  <p>
-                    "O que é ensinado em escolas e universidades não representa educação, 
-                    mas são meios para obtê-la."
-                  </p>
-                  <p>- Ralph Waldo Emerson</p>
-                </div>
-              </div>
-            </section>
-      
-            <section id="upcoming-events">
-              <div class="container">
-                <h2 class="section-title">Vantagens do Tio Wolney Transportes</h2>
-                <hr class="divider" />
-                <div id="upcoming-events-content">
-                  <div class="event">
-                    <img src="./assets/images/securitypng.png" alt="" />
-                    <h3>Segurança</h3>
-                    <p>
-                      Motoristas habilitados, com cursos de transporte escolar, de passageiros,
-                      e direção defensiva.
-                    </p>
-                  </div>
-                  <div class="event">
-                    <img src="./assets/images/monitor.jpeg" alt="" />
-                    <h3>Monitores na viagem</h3>
-                    <p>
-                      Cada carro conta com um monitor(A) capacitado(a), para acompanhar, orientar e
-                      cuidar das crianças.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </section>
-      
-            <section id="explore">
-              <div class="background-overlay"></div>
-              <div class="container">
-                <div id="explore-content">
-                  <div>
-                    <h2 class="section-title">Conheça as escolas:</h2>
-                    <hr class="divider" />
-                    <p>
-                      Transportamos seu filho(a), com muito amor e responsabilidade para as escolas: 
-                      <ul>
-                        <li>CEMEI Paulo Freire e extensão;</li>
-                      <li>Escola Municipal Modelo;</li>
-                      <li>Colégio Estadual Senador José Ermírio de Moraes;</li>
+  <section id="quote">
+    <div class="container">
+      <div>
+        <img src="./assets/images/watche.jpeg" alt="Uma aspas da cor branca" width="94" height="72" />
+      </div>
+      <div id="quote-content">
+        <p>
+          "O que é ensinado em escolas e universidades não representa educação,
+          mas são meios para obtê-la."
+        </p>
+        <p>- Ralph Waldo Emerson</p>
+      </div>
+    </div>
+  </section>
 
-                      </ul>            
-                    </p>
-                    <a href="#" class="btn">Saiba Mais</a>
-                  </div>
-                </div>
-              </div>
-            </section>
-      
-            <section id="upcoming-tours">
-              <div class="container">
-                <div>
-                  <h2 class="section-title">Sobre Tio Wolney Transporte Escolar</h2>
-                  <hr class="divider" />
-                  <p>
-                    Além de segurança, responsabilidade, agilidade, você ainda conta com uma
-                    frota de veículos vistoriados pelo detran, higienizados, som ambiente, confortáveis 
-                    e muita, mais muita diversão. <br>
-                    <i>Tio Wolney onde seu transporte é mais que uma viagem escolar,
-                    é um passeio</i>
-                  </p>
-                       </div>
-                <div class="upcoming-tours-img">
-                  <img src="./assets/images/kombides.jpeg" alt="" />
+  <section id="upcoming-events">
+    <div class="container">
+      <h2 class="section-title">Vantagens do Tio Wolney Transportes</h2>
+      <hr class="divider" />
+      <div id="upcoming-events-content">
+        <div class="event">
+          <img src="./assets/images/securitypng.png" alt="" />
+          <h3>Segurança</h3>
+          <p>
+            Motoristas habilitados, com cursos de transporte escolar, de passageiros,
+            e direção defensiva.
+          </p>
+        </div>
+        <div class="event">
+          <img src="./assets/images/monitor.jpeg" alt="" />
+          <h3>Monitores na viagem</h3>
+          <p>
+            Cada carro conta com um monitor(A) capacitado(a), para acompanhar, orientar e
+            cuidar das crianças.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                </div>
-            </div>
-            </section>
-          </main>
-          <footer id="page-footer">
-            <div class="container">
-              <p>
-                Cocalzinho de Goiás | Phone: 62999011601 / 62991555471
-          
-                Email: wolney.leonan@gmail.com
+  <section id="explore">
+    <div class="background-overlay"></div>
+    <div class="container">
+      <div id="explore-content">
+        <div>
+          <h2 class="section-title">Conheça as escolas:</h2>
+          <hr class="divider" />
+          <p>
+            Transportamos seu filho(a), com muito amor e responsabilidade para as escolas:
+          <ul>
+            <li>CEMEI Paulo Freire e extensão;</li>
+            <li>Escola Municipal Modelo;</li>
+            <li>Colégio Estadual Senador José Ermírio de Moraes;</li>
 
-              </p>
-              <p>Copyright © 2022 Tio Wolney Transporte Escolar</p>
-              </p>
-            </div>
-          </footer>
-        </body>
-      </html>
-  
+          </ul>
+          </p>
+          <a href="#" class="btn">Saiba Mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="upcoming-tours">
+    <div class="container">
+      <div>
+        <h2 class="section-title">Sobre Tio Wolney Transporte Escolar</h2>
+        <hr class="divider" />
+        <p>
+          Além de segurança, responsabilidade, agilidade, você ainda conta com uma
+          frota de veículos vistoriados pelo detran, higienizados, som ambiente, confortáveis
+          e muita, mais muita diversão. <br>
+          <em> Tio Wolney é onde seu transporte é mais que uma viagem escolar,
+            é um passeio</em>
+        </p>
+      </div>
+      <div class="upcoming-tours-img">
+        <img src="./assets/images/kombides.jpeg" alt="" />
+
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer id="page-footer">
+    <div class="container">
+      <p>
+        Cocalzinho de Goiás | Phone: 62999011601 / 62991555471
+
+        Email: wolney.leonan@gmail.com
+
+      </p>
+      <p>Copyright © 2022 Tio Wolney Transporte Escolar</p>
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

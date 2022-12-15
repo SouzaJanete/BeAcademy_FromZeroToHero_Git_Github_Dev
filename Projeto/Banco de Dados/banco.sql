@@ -1,10 +1,10 @@
-DROP TABLE tbcliente;
+-- DROP TABLE tbcliente;
 
-DROP TABLE tbpagamento;
+-- DROP TABLE tbpagamento;
 
-DROP TABLE tbaluno;
+-- DROP TABLE tbaluno;
 
-DROP TABLE tbfiliacao;
+-- DROP TABLE tbfiliacao;
 
 CREATE TABLE tbcliente
 ( ID INT NOT NULL AUTO_INCREMENT,
@@ -66,6 +66,21 @@ FOREIGN KEY (IDCLIENTE)
 REFERENCES tbcliente(Id)
 ON UPDATE RESTRICT ON DELETE CASCADE
 );
+
+CREATE TABLE `tb_comments` (
+  `commentsid` int(11) NOT NULL,
+  `comments` varchar(200) NOT NULL,
+  `userid` int(11) NOT NULL,
+  `postsid` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `tb_users` (
+  `userid` int(11) NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
 
 SELECT * FROM information_schema. tables where table_schema = 'db_zero_to_hero';
 
